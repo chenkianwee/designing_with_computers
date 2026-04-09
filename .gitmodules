@@ -1,0 +1,3 @@
+[submodule "themes/dwc_bootstrap5"]
+	path = themes/dwc_bootstrap5
+	url = https://github.com/chenkianwee/dwc_bootstrap5.git
