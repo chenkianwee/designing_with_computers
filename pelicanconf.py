@@ -3,7 +3,7 @@ SITENAME = 'Designing with Computers'
 SITEURL = ""
 # SITEURL = "chenkianwee.github.io"
 
-THEME = 'themes/solo_proto_workshop_bootstrap5' # default was 'notmyidea'
+THEME = 'themes/dwc_bootstrap5' # default was 'notmyidea'
 
 PATH = "content"
 
