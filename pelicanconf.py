@@ -65,7 +65,7 @@ MENUITEMS = (
     ("Home", f"{SITEURL}/", "item"),
     ("Blog", f"{SITEURL}/blogs/", "item"),
     ("Research", f"{SITEURL}/research/", "dropdown"),
-    ("Education", f"{SITEURL}/education/", "dropdown"),
+    ("Educational", f"{SITEURL}/education/", "dropdown"),
     ("About", f"{SITEURL}/pages/about.html", "item"),
 )
 

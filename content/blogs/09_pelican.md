@@ -2,7 +2,7 @@ Title: How I Developed My Website Using Python Pelican
 Description: Using Python Pelican for developing my website documenting my research and open-source projects. 
 Date: 2026-04-04
 Authors: Kian Wee Chen
-Status: published
+Status: draft
 Duration: 5 mins
 Category: Tutorial
 
