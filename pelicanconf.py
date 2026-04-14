@@ -43,7 +43,7 @@ SLUGIFY_SOURCE = 'basename'  # default was 'title'
 
 INDEX_SAVE_AS = '/blogs/index.html'  # default was 'index.html'
 ARTICLE_PATHS = ['blogs']  # default was ['']
-PAGE_PATHS = ['pages', 'cv', 'research', 'education', 'pelican_tutorial']  # default was ['pages']
+PAGE_PATHS = ['pages', 'cv', 'research', 'educational', 'pelican_tutorial']  # default was ['pages']
 
 PATH_METADATA = r'(?P<path_no_ext>.*)\..*'  # default was ''
 ARTICLE_URL = '{path_no_ext}.html'  # default was '{slug}.html'
@@ -65,7 +65,7 @@ MENUITEMS = (
     ("Home", f"{SITEURL}/", "item"),
     ("Blog", f"{SITEURL}/blogs/", "item"),
     ("Research", f"{SITEURL}/research/", "dropdown"),
-    ("Educational", f"{SITEURL}/education/", "dropdown"),
+    ("Educational", f"{SITEURL}/educational/", "dropdown"),
     ("About", f"{SITEURL}/pages/about.html", "item"),
 )
 
