@@ -1,4 +1,4 @@
-Title: 02. Customizing Your Theme
+Title: Customizing Your Theme
 Subtitle: Pelican Tutorial
 Status: draft
 Page_type: side_navbar

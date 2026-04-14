@@ -36,25 +36,23 @@ DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
-LOAD_CONTENT_CACHE = False  # default was True
+
 DELETE_OUTPUT_DIRECTORY = True  # default was False
-USE_FOLDER_AS_CATEGORY = False  # default was True
 SLUGIFY_SOURCE = 'basename'  # default was 'title'
 
 INDEX_SAVE_AS = '/blogs/index.html'  # default was 'index.html'
 ARTICLE_PATHS = ['blogs']  # default was ['']
 PAGE_PATHS = ['pages', 'cv', 'research', 'educational', 'pelican_tutorial']  # default was ['pages']
 
+USE_FOLDER_AS_CATEGORY = False  # default was True
 PATH_METADATA = r'(?P<path_no_ext>.*)\..*'  # default was ''
 ARTICLE_URL = '{path_no_ext}.html'  # default was '{slug}.html'
 PAGE_URL = '{path_no_ext}.html'  # default was 'pages/{slug}.html'
-
 ARTICLE_SAVE_AS = '{path_no_ext}.html'  # default was '{slug}.html'
 PAGE_SAVE_AS = '{path_no_ext}.html'  # default was 'pages/{slug}.html'
 
-ARCHIVE_SAVE_AS = False
+ARCHIVES_SAVE_AS = False
 DISPLAY_CATEGORIES_ON_MENU = False
-CATEGORIES_SAVE_AS = 'categories.html'
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {
