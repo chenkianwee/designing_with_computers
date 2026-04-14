@@ -43,7 +43,7 @@ SLUGIFY_SOURCE = 'basename'  # default was 'title'
 
 INDEX_SAVE_AS = '/blogs/index.html'  # default was 'index.html'
 ARTICLE_PATHS = ['blogs']  # default was ['']
-PAGE_PATHS = ['pages', 'cv', 'research', 'education']  # default was ['pages']
+PAGE_PATHS = ['pages', 'cv', 'research', 'education', 'pelican_tutorial']  # default was ['pages']
 
 PATH_METADATA = r'(?P<path_no_ext>.*)\..*'  # default was ''
 ARTICLE_URL = '{path_no_ext}.html'  # default was '{slug}.html'
@@ -79,3 +79,5 @@ SEO_ENHANCER_TWITTER_CARDS = False # Subfeature of SEO enhancer
 NAVBAR_BRAND_IMAGE = 'images/logo.svg' # the logo used for the index.html landing page
 NAVBAR_BRAND_IMAGE_NON_LANDING = 'images/logo_non_landing.svg' # the logo used for other pages
 NAVBAR_LOGO_WIDTH = 300 # theme solo_proto_workshop_bootstrap5 specific variable
+PAGEFIND = True
+GOATCOUNTER_URL = '<script data-goatcounter="https://designingwithcomputers.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'
