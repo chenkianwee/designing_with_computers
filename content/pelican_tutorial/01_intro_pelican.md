@@ -1,6 +1,6 @@
 Title: How Pelican Works Under the Hood 
 Subtitle: Pelican Tutorial
-Status: draft
+Status: hidden
 Page_type: side_navbar
 
 This tutorial is best read together with my [Pelican blog post](../blogs/09_pelican.html) on why I use Pelican for my website.
@@ -8,7 +8,7 @@ This tutorial is best read together with my [Pelican blog post](../blogs/09_peli
 # What is Pelican
 This page provides a summary of the core concept of Pelican. You can read the full Pelican documentation <a href = https://docs.getpelican.com/ target = '_blank'>here</a>. Pelican is a static website generator. A static website serves pages using a fixed number of pre-built HTML, CSS and Javascript. It has no server-side processing and no database. Static pages loads very fast and is very responsive. It runs locally on your computer as all the pages are downloaded onto your browser when you visit the website. 
 
-Pelican generates all the neccesary HTML, CSS and Javascript for your static website from your source files. In Pelican, the source files can be written either in markdown (.md) or eStructuredText (.rst). This is very convenient as Pelican can easily regenerate the website if you want to change the theme without affecting your content. 
+Pelican generates all the neccesary HTML, CSS and Javascript for your static website from your source files. In Pelican, the source files can be written either in markdown (.md) or reStructuredText (.rst). This is very convenient as Pelican can easily regenerate the website if you want to change the theme without affecting your content. 
 
 # Structure of a Pelican Project
 In a Pelican website there are two types of webpages; articles and pages.

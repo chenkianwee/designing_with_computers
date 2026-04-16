@@ -1,6 +1,6 @@
 Title: Minimal Site with Landing, Blog Index and About Pages
 Subtitle: Pelican Tutorial
-Status: draft
+Status: hidden
 Page_type: side_navbar
 
 In this tutorial I am using an Ubuntu machine. As Pelican is Python-based, the commands are OS agnostic and should work on other OS. I assumed you are familiar with Python, knows how to create a virtual environment, and pip install Pelican. 
@@ -20,7 +20,7 @@ We are trying to create a website with a landing page, blog index page and an ab
 
         python3.14 -m venv ~/venv/pelican
 
-4.  Activate your environment. For windows use this command "<venv>\Scripts\activate"
+4.  Activate your environment. For windows use this command venv_path\Scripts\activate
 
         source ~/venv/pelican/bin/activate
 
@@ -111,6 +111,7 @@ We are trying to create a website with a landing page, blog index page and an ab
 
 11.  Copy and paste the following onto your 'pelicanconf.py' file. Below the # RELATIVE_URLS = True line.
 
+        THEME = 'simple'
         DELETE_OUTPUT_DIRECTORY = True  # default was False
         SLUGIFY_SOURCE = 'basename'  # default was 'title'
 
@@ -145,6 +146,7 @@ We are trying to create a website with a landing page, blog index page and an ab
 # Explanation
 We have modify settings in the pelicanconf.py file in step 6. Here I will provide explanation on why I did that. You can refer to this <a href = "https://inventwithpython.com/blog/pelican-tutorial.html" target = "_blank">blogpost</a> for a more detailed explanation.
 
+- THEME = 'simple' # the default is notmyidea, simple is the most basic of themes in pelican
 - DELETE_OUTPUT_DIRECTORY = True  # Everytime a new generation happens the output folder content is totally deleted and replace with new files
 - SLUGIFY_SOURCE = 'basename'  # the url uses the filename instead of the title of the article, default was 'title'
 - INDEX_SAVE_AS = '/blogs/index.html'  # We want a landing page for our website, so we need the index of the blog to be in the blog folder, default was 'index.html'
