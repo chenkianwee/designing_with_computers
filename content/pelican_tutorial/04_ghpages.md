@@ -8,17 +8,17 @@ Our tutorial website is looking good so far. Now we want to share it with everyo
 # Step-by-Step
 1. Register a github account if you have not. Add a new repository called pelican_tutorial.
 
-    <img src="../images/tutorials/pelican/pelican_tut3_0.png" style="width: 60%; height: auto;">
+    <img src="../images/tutorials/pelican/pelican_tut3_0.png" style="width: 100%; height: auto;">
 
 2. Go to the repository Settings -> Pages -> Source and change it to Github Actions
 
-    <img src="../images/tutorials/pelican/pelican_tut3_2.png" style="width: 60%; height: auto;">
+    <img src="../images/tutorials/pelican/pelican_tut3_2.png" style="width: 100%; height: auto;">
 
 3. Download and install git on your computer <a href = "https://git-scm.com/install/" target = "_blank">here</a>. Clone the repository into your computer with the following git command. You can obtain your repository url on your repository by going to <> Code -> HTTPS -> repo_url following the image below.
 
                 git clone <repository_url>
         
-    <img src="../images/tutorials/pelican/pelican_tut3_1.png" style="width: 60%; height: auto;">
+    <img src="../images/tutorials/pelican/pelican_tut3_1.png" style="width: 100%; height: auto;">
 
 4. Once the repository is cloned. Copy and paste all your files from your previous tutorials into the cloned folder.
 
@@ -62,7 +62,7 @@ Refer to github pages <a href = "https://docs.github.com/en/pages/configuring-a-
 
 2. On the github pages setting page specify your domain name.
 
-    <img src="../images/tutorials/pelican/pelican_tut3_4.png" style="width: 60%; height: auto;">
+    <img src="../images/tutorials/pelican/pelican_tut3_4.png" style="width: 100%; height: auto;">
 
 3. Go to where you buy your domain name. Setup your DNS as follows.
 
@@ -84,8 +84,8 @@ Refer to github pages <a href = "https://docs.github.com/en/pages/configuring-a-
         STATIC_PATHS = ['images', 'extra/CNAME']
         EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
-7. In your publishconf.py file update the SITEURL to your custom domain.
+7. In your publishconf.py file update the SITEURL to your custom domain. Make sure your SITEURL in publishconf.py matches the domain in your CNAME file
 
 8. Publish your website to the pages and you can visit your website with your custom domain name.
 
-9. For the next tutorial I will look at the use of plugins with Pelican.
+9. For the next tutorial I will look at the use of plugins and external tools with Pelican.

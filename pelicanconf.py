@@ -1,7 +1,6 @@
 AUTHOR = 'Kian Wee Chen'
 SITENAME = 'Designing with Computers'
 SITEURL = ""
-# SITEURL = "chenkianwee.github.io"
 
 THEME = 'themes/dwc_bootstrap5' # default was 'notmyidea'
 
