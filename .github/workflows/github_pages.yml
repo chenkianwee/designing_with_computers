@@ -108,8 +108,9 @@ jobs:
         run: python -m pagefind --site ${{ inputs.output-path }}
       - name: Add jupyter book html
         working-directory: ./tutorials
-        run: jupyter-book build --html
-        run: rsync -av --exclude="/index.html" ./_build/html/ ${{ inputs.output-path }}
+        run: | 
+          jupyter-book build --html
+          rsync -av --exclude="/index.html" ./_build/html/ ${{ inputs.output-path }}
       - name: Archive artifact
         shell: sh
         run: |
