@@ -26,22 +26,26 @@ The most basic of a Pelican project will contain folders and files as follows:
 - **tasks.py**: provide terminal commands to control Pelican using Python. (not used in the tutorial) 
 
 ## Settings
-The default pelicanconf.py file as shown below contains the settings used by Pelican to generate the static website. Alot of the settngs are used by the theme to configure the website. For example the SITEURL is used by Pelican for routing purposes when linking pages in the website. 
+The default pelicanconf.py file as shown below contains the settings used by Pelican to generate the static website. Alot of the settngs are used by the theme to configure the website. For example the SITEURL is used by Pelican for routing purposes when linking pages in the website.
 
-        AUTHOR = 'me'
-        SITENAME = 'something'
-        SITEURL = ""
-        PATH = "content"
-        TIMEZONE = 'Europe/Rome'
-        DEFAULT_LANG = 'en'
+```
+AUTHOR = 'me'
+SITENAME = 'something'
+SITEURL = ""
+PATH = "content"
+TIMEZONE = 'Europe/Rome'
+DEFAULT_LANG = 'en'
+```
 
 Page level settings are specified in the source files. An example of an article page markdown is shown below with settings such as Title, Date and Category specified in the file followed by the content.
 
-        Title: My First Review
-        Date: 2010-12-03 10:20
-        Category: Review
+```
+Title: My First Review
+Date: 2010-12-03 10:20
+Category: Review
 
-        Following is a review of my favorite mechanical keyboard.
+Following is a review of my favorite mechanical keyboard.
+```
 
 All of the settings in the pelicanconf.py and publishconf.py (CAPS letters settings) and page level settings in the source files will be made accessible to Pelican and the theme when generating the static website. You can check all the available settings (in CAPS) <a href = "https://docs.getpelican.com/en/latest/settings.html" target = "_blank">here</a> and all the page level settings <a href = "https://docs.getpelican.com/en/latest/themes.html" target = "_blank">here</a>.
 
