@@ -1,8 +1,4 @@
 # How Pelican Works Under the Hood 
-Subtitle: Pelican Tutorial
-Status: hidden
-Page_type: side_navbar
-
 This tutorial is best read together with my [Pelican blog post](../blogs/09_pelican.html) on why I use Pelican for my website.
 
 # What is Pelican

@@ -1,8 +1,4 @@
 # Customizing Your Theme
-Subtitle: Pelican Tutorial
-Status: hidden
-Page_type: side_navbar
-
 Picking up from the previous tutorial [Minimal Site with Landing, Blog Index and About Pages](./02_start.md), this tutorial will be customizing the theme of the website. This tutorial walks you through how to partially customize your theme using bootstrap 5. This is the final look of the website.
 
 ```{image} images/pelican_tut2_2.png

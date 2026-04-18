@@ -1,8 +1,4 @@
 # Hosting your Website on Github Pages
-Subtitle: Pelican Tutorial
-Status: hidden
-Page_type: side_navbar
-
 Our tutorial website is looking good so far. Now we want to share it with everyone online. Github has a free function called pages that host static webpages as long as you keep the repository public. The URL where your webpage will be served is *your_username.github.io/repository_name*. For this tutorial, I am going to name it chenkianwee.github.io/pelican_tutorial.
 
 # Step-by-Step

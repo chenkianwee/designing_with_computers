@@ -1,8 +1,4 @@
 # Minimal Site with Landing, Blog Index and About Pages
-Subtitle: Pelican Tutorial
-Status: hidden
-Page_type: side_navbar
-
 In this tutorial I am using an Ubuntu machine. As Pelican is Python-based, the commands are OS agnostic and should work on other OS. I assumed you are familiar with Python, knows how to create a virtual environment, and pip install Pelican. 
 
 We are trying to create a website with a landing page, blog index page and an about page using the Pelican 'simple' theme. 
