@@ -111,6 +111,7 @@ jobs:
         run: | 
           jupyter-book build --html
           rsync -av --exclude="/index.html" ./_build/html/ ${{ inputs.output-path }}
+          ls ${{ inputs.output-path }}
       - name: Archive artifact
         shell: sh
         run: |
