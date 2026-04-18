@@ -2,7 +2,7 @@ Title: Tutorials & Ebooks
 Status: hidden
 
 # Tutorials
-**Pelican Tutorial** - Step-by-step instructions of how I build this website using Pelican. [[Learn more]](../pelican_tutorial/intro_pelican)
+**Pelican Tutorial** - Step-by-step instructions of how I build this website using Pelican. [[Learn more]](../pelican-tutorial/intro-pelican)
 
 
 # EBooks
