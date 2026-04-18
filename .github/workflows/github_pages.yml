@@ -110,7 +110,8 @@ jobs:
         working-directory: ./tutorials
         run: | 
           jupyter-book build --html
-          ls ${{ inputs.output-path }}
+          
+          ls "../${{ inputs.output-path }}"
       - name: Archive artifact
         shell: sh
         run: |
