@@ -209,3 +209,5 @@ __marimo__/
 # exclude these folders
 output
 references
+# MyST build outputs
+_build
