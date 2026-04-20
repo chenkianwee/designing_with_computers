@@ -22,7 +22,7 @@ project:
 site:
   options:
       folders: true
-      logo: ../content/images/logo.svg
+      logo: ../content/images/logo_tutorial.svg
       # favicon: favicon.ico
   template: book-theme
 
