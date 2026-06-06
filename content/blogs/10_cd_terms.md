@@ -8,7 +8,7 @@ Category: Essay
 
 I have came across many terms used for describing the use of computers in architecture design. The meaning of these terms are often ambiguous, overlaps and used inconsistently. In this essay, I attempt to list, sort and arranged the terms into a diagram to show their relationships. It is followed by a glossary providing a short explanation of each term. I hope to provide an overview and a starting point for new researchers to have a feel for the field. Based on your research interest choose a topic/direction, then with a topic in mind, refer to this post <a href="08_study_cdgn.html" target="_blank">Computational Design Research</a> to decide if the topic is a data strucures & algorithms, software development or application research. 
 
-<a href="https://www.linkedin.com/posts/kian-wee-chen-79b2b721_some-of-my-thoughts-on-computational-design-activity-7417782261590310912-bB5t?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAR-VqcBI2WVhLSf-dcz1wsslwv9rVp1vYE" target="_blank">Hope this is helpful and we can continue the conversation in the comments</a>!
+<a href="https://www.linkedin.com/posts/kian-wee-chen-79b2b721_some-of-my-thoughts-put-on-a-diagram-about-share-7468877718273728512-7SbE/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAR-VqcBI2WVhLSf-dcz1wsslwv9rVp1vYE" target="_blank">Hope this is helpful and we can continue the conversation in the comments</a>!
 
 <img src="../images/blogs/cd_terms/cd_terms.png" style="width: 100%;">
 
