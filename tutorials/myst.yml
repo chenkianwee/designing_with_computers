@@ -18,6 +18,9 @@ project:
         - file: pelican_tutorial/03_custom_theme.md
         - file: pelican_tutorial/04_ghpages.md
         - file: pelican_tutorial/05_ext_tools.md
+    - title: Deploy Local LLM Tutorial
+      children:
+        - file: local_llm/01_deploy_llm.md
     
 site:
   options:

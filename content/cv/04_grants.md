@@ -6,9 +6,10 @@ Page_type: side_navbar
 <!-- Image_width: 150px -->
 
 # Grants
-- Princeton University Andlinger Center for Energy and the Environment Fund for Energy Reserach with Corporate Partners (2023-2026) – Re2Rad: Research of Renewables-powered Radiant Systems demonstrating next generation control of comfort, air-quality and emissions – from lab to testbed to industry to campus, Industry Collaborator, USD 600, 000
-- Research Project with Housing Development Board of Singapore (2021-2023) – Optimization Algorithm for Rapid Sustainable Planning and Design, Collaborator, USD 250, 000 (SGD 349,200)
-- Distinguished Postdoctoral Fellowship, Andlinger Center for Energy and the Environment (2018-2020), USD 130, 000
+- Princeton University Andlinger Center for Energy and the Environment Fund for Energy Reserach with Corporate Partners (2023-2026) – Re2Rad: Research of Renewables-powered Radiant Systems demonstrating next generation control of comfort, air-quality and emissions – from lab to testbed to industry to campus, Industry Collaborator, USD 600,000
+- Princeton University Andlinger Center for Energy and the Environment Fund for Energy Reserach with Corporate Partners (2023-2026) – Re2Rad: Research of Renewables-powered Radiant Systems demonstrating next generation control of comfort, air-quality and emissions – from lab to testbed to industry to campus, Industry Collaborator, USD 600,000
+- Research Project with Housing Development Board of Singapore (2021-2023) – Optimization Algorithm for Rapid Sustainable Planning and Design, Collaborator, USD 250,000 (SGD 349,200)
+- Distinguished Postdoctoral Fellowship, Andlinger Center for Energy and the Environment (2018-2020), USD 130,000
 - SMART-CENSAM Research Initiative (2017-2018) – Processing Terrestrial LiDAR Scanned Trees for Multi-Disciplinary Analysis, Principal Investigator, USD 5000 (SGD 7000)
 
 # Awards
