@@ -66,7 +66,7 @@ I assume you are using a Ubuntu 26.04 machine. The instructions are based on thi
 7. Congrats you have successfully download and run a local LLM.
 
 ## Integrate it with copilot.
-- The conventional way to use copilot is you will need to login to your github account.
+The conventional way to use copilot is you will need to login to your github account. In this tutorial, I manually integrate the local model and did not login to my github account. 
 
 1. Run a server to serve the local llm. Open Jan, go to Settings -> Local API Server. Choose the 'gemma-4-E2B-it-IQ4_XS' and click on 'Start Server'.
     ```{image} images/llm_tut1_5.png
