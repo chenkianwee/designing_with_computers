@@ -2,8 +2,9 @@ Title: Tutorials & Ebooks
 Status: hidden
 
 # Tutorials
-**Pelican Tutorial** - Step-by-step instructions of how I build this website using Pelican. [[Learn more]](../pelican-tutorial/intro-pelican)
+**Deploy Local LLM Tutorial** - Step-by-step instructions of how I deploy LLM locally on my laptop. [[Learn more]](../local-llm/deploy-llm)
 
+**Pelican Tutorial** - Step-by-step instructions of how I build this website using Pelican. [[Learn more]](../pelican-tutorial/intro-pelican)
 
 # EBooks
 **gis4design** - A QGIS guide book for designers. Offer step-by-step instructions for applying GIS in your design project. <a href="https://chenkianwee.github.io/gis4design" target="_blank">[Link]</a>
