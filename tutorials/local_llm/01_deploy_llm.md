@@ -65,6 +65,42 @@ I assume you are using a Ubuntu 26.04 machine. The instructions are based on thi
     ```
 7. Congrats you have successfully download and run a local LLM.
 
+## Integrate with Pi Coding Agent
+1. Install Pi coding agent [here](https://pi.dev/)
+
+2. Configure the custom model file. Create a in ~/.pi/agent/models.json [Link](https://pi.dev/docs/latest/models#supported-apis)
+
+3. Configure the file as follows
+    ```
+    {
+        "providers": {
+            "janai": {
+                "baseUrl": "http://127.0.0.1:1337/v1",
+                "api": "openai-completions",
+                "apiKey": "anything",
+                "models": [
+                        {
+                            "id": "gemma-4-E2B-it-IQ4_XS",
+                            "name": "Gemma-4-E2B",
+                            "reasoning": true,
+                            "input": ["text", "image"],
+                            "contextWindow": 128000,
+                            "maxTokens": 16000
+                        }
+                ]
+            }
+        }
+    }
+    ```
+    
+3. Once configured go to the terminal, go to the directory and activate pi. Refer to quickstart guide [here](https://pi.dev/docs/latest/quickstart)
+    ```
+    cd path/to/the/directory/you/want/to/work/in
+    pi
+    ```
+
+4.  In the terminal type in '/model' to select the model you have just configured. Chat with the agent and build your project.
+
 ## Integrate it with copilot.
 The conventional way to use copilot is you will need to login to your github account. In this tutorial, I manually integrate the local model and did not login to my github account. 
 
@@ -91,7 +127,8 @@ The conventional way to use copilot is you will need to login to your github acc
     API Key: anything
     Custom Endpoint: API Type: Chat Completions
     ```
-6. A text window will open for you to configure your model. Configure your model as follows:
+6. A text window will open for you to configure your model. Co
+nfigure your model as follows:
     ```
     [
         {
@@ -142,4 +179,5 @@ The conventional way to use copilot is you will need to login to your github acc
     ```
 8. In the chat window choose the Gemma 4 E2B model that you just set up and have a chat. The first chat will take some time to initiate. 
 
-9. You can add context to the chat window and also ask the agent to write codes for you. 
+9. You can add context to the chat window and also ask the agent to write codes for you.
+
