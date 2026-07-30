@@ -6,7 +6,7 @@ Page_type: side_navbar
 <!-- Image_width: 150px -->
 
 # Grants
-- Princeton University High Meadows Foundation Sustainability Fund (2026 Jun-2026 Dec) – Investigate the Imbalance in Heating and Cooling loads at Lewis Center for the Arts (LCA), USD 9,170
+- Princeton University High Meadows Foundation Sustainability Fund (2026 Jun-2026 Dec) – Investigate the Imbalance in Heating and Cooling loads at Lewis Center for the Arts (LCA), Principal Investigator, USD 9,170
 - Princeton University Andlinger Center for Energy and the Environment Fund for Energy Reserach with Corporate Partners (2023-2027) – Re2Rad: Research of Renewables-powered Radiant Systems demonstrating next generation control of comfort, air-quality and emissions – from lab to testbed to industry to campus, Industry Collaborator, USD 600,000
 - Research Project with Housing Development Board of Singapore (2021-2023) – Optimization Algorithm for Rapid Sustainable Planning and Design, Collaborator, USD 250,000 (SGD 349,200)
 - Distinguished Postdoctoral Fellowship, Andlinger Center for Energy and the Environment (2018-2020), USD 130,000
