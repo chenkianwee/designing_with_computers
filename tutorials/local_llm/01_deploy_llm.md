@@ -31,6 +31,7 @@ I assume you are using a Ubuntu 26.04 machine. The instructions are based on thi
     ```
     nvidia-smi
     ```
+
 ## Install Jan.ai to run a local LLM
 1. Download and install Jan.ai model manager. For Ubuntu machines remember to download the .deb version as I have had issue with the Flatpak version.
 
